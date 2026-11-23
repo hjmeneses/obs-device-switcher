@@ -18,6 +18,9 @@
 >   reading, and the `source_save` signal not disconnected on destruction.
 >
 > The `master` branch tracks upstream without changes.
+>
+> **Download (Windows x64, OBS 33):** [Releases](https://github.com/hjmeneses/obs-device-switcher/releases/latest).
+> With OBS closed, extract the zip into the OBS folder (`C:\Program Files\obs-studio`).
 
 Plugin for OBS Studio to add a device switcher dock.
 
