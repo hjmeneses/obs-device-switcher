@@ -19,8 +19,12 @@
 >
 > The `master` branch tracks upstream without changes.
 >
-> **Download (Windows x64, OBS 33):** [Releases](https://github.com/hjmeneses/obs-device-switcher/releases/latest).
-> With OBS closed, extract the zip into the OBS folder (`C:\Program Files\obs-studio`).
+> **Download (OBS 33):** [Releases](https://github.com/hjmeneses/obs-device-switcher/releases/latest).
+> Remove the original Device Switcher first, if installed.
+>
+> - **Windows:** with OBS closed, extract the zip into `C:\ProgramData\obs-studio\plugins`.
+> - **Ubuntu:** `sudo apt install ./device-switcher-<version>-x86_64-linux-gnu.deb`.
+> - **macOS:** coming soon.
 
 Plugin for OBS Studio to add a device switcher dock.
 
