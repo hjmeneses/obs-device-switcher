@@ -32,6 +32,12 @@ if(ENABLE_QT)
     ${CMAKE_PROJECT_NAME}
     PROPERTIES AUTOMOC ON AUTOUIC ON AUTORCC ON
   )
+  if(APPLE)
+    # Xcode 26 exports several *_DEPLOYMENT_TARGET variables to build phases, and clang refuses
+    # to run when more than one is set. AUTOMOC calls clang++ -dM -E to read predefined macros,
+    # so the build fails there. moc does not need them for this plugin.
+    set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES AUTOMOC_COMPILER_PREDEFINES OFF)
+  endif()
 endif()
 
 configure_file(src/version.h.in version.h)
