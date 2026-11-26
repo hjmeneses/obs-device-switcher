@@ -39,7 +39,7 @@
     },
     "name": "device-switcher",
     "displayName": "Device Switcher",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Exeldro",
     "website": "https://github.com/exeldro/obs-device-switcher",
     "email": "60237609+hjmeneses@users.noreply.github.com"
