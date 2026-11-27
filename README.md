@@ -25,6 +25,8 @@
 > - **Windows:** with OBS closed, extract the zip into `C:\ProgramData\obs-studio\plugins`.
 > - **Ubuntu:** `sudo apt install ./device-switcher-<version>-x86_64-linux-gnu.deb`.
 > - **macOS:** coming soon.
+>
+> **Development Transparency & AI Disclosure:** In compliance with the [OBS Project Resource Guidelines](https://obsproject.com/forum/resources/) and the [OBS AI/Machine Learning Policy](https://github.com/obsproject/obs-studio/blob/master/CONTRIBUTING.md#aimachine-learning-policy), the OBS 33 / Qt 6 port changes, bug fixes, CI configuration, and fork documentation were developed with the assistance of AI coding tools under the maintainer's direction, review, and live testing in OBS Studio 33.
 
 Plugin for OBS Studio to add a device switcher dock.
 
